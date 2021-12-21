@@ -103,16 +103,8 @@ public final class News {
   
   /**
    *
-   * @param title
-   * @param source
-   * @param author
-   * @param url
-   * @param urlImage
-   * @param description
-   * @param content
-   * @param now
    */
-  public News(String title, String source, String author, String url, String urlImage, String description, String content, java.time.ZonedDateTime now){
+  public News(){
     //Nothing here
   }
   
@@ -180,4 +172,6 @@ public final class News {
     }
     this.publishedAt = publishedAt;
   }
+  
+  
 }
